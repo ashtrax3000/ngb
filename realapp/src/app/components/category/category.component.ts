@@ -8,7 +8,7 @@ import { CategoryService } from 'src/app/services/category.service';
   styleUrls: ['./category.component.scss']
 })
 
-export class CategoryComponent implements OnInit, OnDestroy {
+export class CategoriesComponent implements OnInit, OnDestroy {
 
   categories: Category[];
   sub:any;

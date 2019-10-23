@@ -2,24 +2,28 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './components/app/app.component';
-import { CategoryComponent } from './components/category/category.component';
-import { QuestionComponent } from './components/question/question.component';
-import { TagComponent } from './components/tag/tag.component';
+import { CategoriesComponent } from './components/category/category.component';
+import { QuestionsComponent } from './components/question/question.component';
+import { TagsComponent } from './components/tag/tag.component';
 import { CategoryService } from './services/category.service';
 import { HttpClientModule } from '@angular/common/http';
+import { RouterModule } from '@angular/router';
+import { routes } from './app.route';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CategoryComponent,
-    QuestionComponent,
-    TagComponent,
+    CategoriesComponent,
+    QuestionsComponent,
+    TagsComponent,
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }

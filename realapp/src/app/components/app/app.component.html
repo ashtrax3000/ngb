@@ -1,6 +1,12 @@
 <h1>
     {{title}}
-  </h1>
+</h1>
   <div>
-    <app-category></app-category>
+    <ul>
+        <li><a [routerLink]="['/categories']">Categories</a></li>
+        <li><a [routerLink]="['/tags']">Tags</a></li>
+        <li><a [routerLink]="['/questions']">Questions</a></li>
+    </ul>
   </div>
+
+  <router-outlet></router-outlet>
