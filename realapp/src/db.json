@@ -1,13 +1,14 @@
-{ "categories": [
-    {"id": 1, "categoryName": "Special"},
-    {"id": 2, "categoryName": "Programming"},
-    {"id": 3, "categoryName": "Architecture"},
-    {"id": 4, "categoryName": "Networking/Infrastructure"},
-    {"id": 5, "categoryName": "Database"},
-    {"id": 6, "categoryName": "Dev Ops"},
-    {"id": 7, "categoryName": "UX/UI"}
+{ 
+    "categories": [
+        {"id": 1, "categoryName": "Special"},
+        {"id": 2, "categoryName": "Programming"},
+        {"id": 3, "categoryName": "Architecture"},
+        {"id": 4, "categoryName": "Networking/Infrastructure"},
+        {"id": 5, "categoryName": "Database"},
+        {"id": 6, "categoryName": "Dev Ops"},
+        {"id": 7, "categoryName": "UX/UI"}
     ],
-  "tagList": [
+    "tagList": [
       "C#",
       "iOS",
       "Objective-C",
@@ -170,9 +171,7 @@
             ],
             "ordered": false,
             "tags": ["JavaScript"],
-            "categories": [
-                {"id": 2}
-            ]
+            "categoryIds": [2]
         },
         {
             "id": 2,
@@ -193,9 +192,7 @@
             ],
             "ordered": false,
             "tags": ["JavaScript"],
-            "categories": [
-                {"id": 2}
-            ]
+            "categoryIds": [2]
         },
         {
             "id": 3,
@@ -216,9 +213,7 @@
             ],
             "ordered": false,
             "tags": ["JavaScript"],
-            "categories": [
-                {"id": 2}
-            ]
+            "categoryIds": [2]
         },
         {
             "id": 4,
@@ -239,9 +234,7 @@
             ],
             "ordered": false,
             "tags": ["JavaScript"],
-            "categories": [
-                {"id": 2}
-            ]
+            "categoryIds": [2,3]
         },
         {
             "id": 5,
@@ -262,9 +255,7 @@
             ],
             "ordered": true,
             "tags": ["JavaScript"],
-            "categories": [
-                {"id": 2}
-            ]
+            "categoryIds": [2]
         },
         {
             "id": 6,
@@ -285,9 +276,7 @@
             ],
             "ordered": false,
             "tags": [],
-            "categories": [
-                {"id": 1}
-            ]
+            "categoryIds": [1]
         }
     ]  
 }
