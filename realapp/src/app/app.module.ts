@@ -22,7 +22,8 @@ import {
         MatInputModule,
         MatFormFieldModule, 
         MatButtonModule,
-        MatListModule      
+        MatListModule,
+        MatCheckboxModule 
        } from  '@angular/material';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -55,6 +56,7 @@ import { QuestionAddUpdateComponent } from './components/question/question-add-u
     MatSelectModule,
     MatInputModule,
     MatFormFieldModule,
+    MatCheckboxModule
   ],
 
   providers: [],
