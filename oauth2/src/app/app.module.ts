@@ -8,11 +8,13 @@ import { HttpClientModule } from '@angular/common/http';
 
 
 import { SearchService } from "./services";
+import { EditComponent } from './edit/edit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SearchComponent
+    SearchComponent,
+    EditComponent
   ],
   imports: [
     BrowserModule,
